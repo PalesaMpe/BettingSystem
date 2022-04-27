@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #393e46;
+  font-family: "Poppins", sans-serif;
+}
+
+.clear {
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  box-sizing: bopx;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+button {
+  font-size: 2.5rem;
+  border: #232931;
+  background-color: #fd5d5d;
+  font-weight: 30px;
+  font-size: 14px;
+  height: 40px;
+
+  padding: 10px 16px;
+  color: white;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: #d9534f;
+  cursor: pointer;
+}
+.bettingSlots {
+  width: 10%;
+  display: inline-block;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "PT Sans", sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+}
+h2 {
+  text-align: left;
+}
+
+p {
+  font-size: 28px;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 10%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+Button:focus {
+  background-color: #99a799;
+}
