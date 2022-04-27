@@ -1,6 +1,6 @@
 var bet = 0.0;
 var totAmount = 1000.0;
-selected = -1;
+var selected = -1;
 
 document.querySelector(".slot5").addEventListener("click", function () {
   addBet(5.0);
