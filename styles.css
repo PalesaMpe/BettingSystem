@@ -1,37 +1,44 @@
-body {
-  margin: 0;
-  background-color: #393e46;
-  font-family: "Poppins", sans-serif;
+.bettingSlots {
+  width: 10%;
+  display: inline-block;
 }
-
 .clear {
   border-radius: 0;
   background-color: white;
   color: black;
-  box-sizing: bopx;
 }
 
 .container {
-  width: 70%;
-  margin: auto;
   text-align: center;
+  margin: auto;
+  width: 70%;
 }
 
 .dice {
-  text-align: center;
   display: inline-block;
 }
-button {
-  font-size: 2.5rem;
-  border: #232931;
-  background-color: #fd5d5d;
-  font-weight: 30px;
-  font-size: 14px;
-  height: 40px;
 
-  padding: 10px 16px;
-  color: white;
+.slot5 {
+  margin-left: 10px;
+  width: 80%;
+}
+.slot10 {
+  width: 90%;
+}
+body {
+  background-color: #393e46;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+button {
+  background-color: #fd5d5d;
+  border: #232931;
   border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 30px;
+  height: 40px;
+  padding: 10px 16px;
   transition-duration: 0.2s;
 }
 
@@ -39,30 +46,9 @@ button:hover {
   background-color: #d9534f;
   cursor: pointer;
 }
-.bettingSlots {
-  width: 10%;
-  display: inline-block;
-}
 
-h1 {
-  margin: 30px;
-  font-family: "PT Sans", sans-serif;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ecca3;
-}
-h2 {
-  text-align: left;
-}
-
-p {
-  font-size: 28px;
-  color: #4ecca3;
-  font-family: "Indie Flower", cursive;
-}
-
-img {
-  width: 80%;
+Button:focus {
+  background-color: #99a799;
 }
 
 footer {
@@ -72,6 +58,24 @@ footer {
   font-family: "Indie Flower", cursive;
 }
 
-Button:focus {
-  background-color: #99a799;
+h1 {
+  color: #4ecca3;
+  font-family: "PT Sans", sans-serif;
+  font-size: 8rem;
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+}
+
+h2 {
+  text-align: left;
+}
+
+img {
+  width: 80%;
+}
+
+p {
+  font-size: 28px;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
